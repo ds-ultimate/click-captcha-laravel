@@ -4,7 +4,7 @@ Click CAPTCHA is a concept PHP implementation of a visual CAPTCHA which requires
 
 The CAPTCHA generates a 320x200 PNG image using PHP. The distracting squares and dashes make image processing approach difficult.
 
-Example generated image. The target circle is on the far right, middle:
+Example generated image. The target rectangle is on the right, between top and middle:
 
 ![alt tag](https://raw.github.com/ds-ultimate/click-captcha-laravel/master/example_image.png)
 
