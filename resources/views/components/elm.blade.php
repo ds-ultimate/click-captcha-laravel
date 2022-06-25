@@ -47,6 +47,7 @@
                     }
                 })
                 .catch((error) => {
+                    generateCaptcha()
                 });
         });
     })
