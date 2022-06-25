@@ -6,7 +6,7 @@ The CAPTCHA generates a 320x200 PNG image using PHP. The distracting squares and
 
 Example generated image. The target circle is on the far right, middle:
 
-![alt tag](https://raw.github.com/lokno/click-captcha/master/example_image.png)
+![alt tag](https://raw.github.com/ds-ultimate/click-captcha-laravel/master/example_image.png)
 
 A running example of the code this is based on: http://www.rabbitfury.com/captcha/
 
