@@ -1,0 +1,30 @@
+{
+    "name": "dsultimate/click-captcha-laravel",
+    "description": "A visual, click-based CAPTCHA for human authentication.",
+    "require": {
+        "php": "^8.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "extremeCrazyCoder",
+            "email": "MKich@gmx.at"
+        },
+        {
+            "name": "Lokno",
+            "email": "lokno1@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Captcha\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Captcha\\Providers\\CustomAuthServiceProvider"
+            ]
+        }
+    }
+}
