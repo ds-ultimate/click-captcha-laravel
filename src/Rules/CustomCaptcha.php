@@ -33,6 +33,7 @@ class CustomCaptcha implements Rule
         if(! isset($value['key'])) return false;
         
         $model = Captcha::find((int) $value['id']);
+        if($model == null) return false;
         if($model->solve_key != $value['key']) return false;
         $model->delete();
         return true;
